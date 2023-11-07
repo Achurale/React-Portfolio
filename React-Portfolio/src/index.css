@@ -30,8 +30,9 @@ section{
   width:80%;
 }
 
-main{
+main {
   text-align: center;
+  margin: 0 auto;
 }
 
 h2 {

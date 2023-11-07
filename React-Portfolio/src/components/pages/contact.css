@@ -1,0 +1,50 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:auto;
+}
+
+#contact h2 {
+    margin: 5px;
+    border-bottom: 5px;
+    border-style: dotted;
+}
+
+#contact input {
+    margin: 1px;
+    color:black;
+    font-size: .75em;
+    height:1.5em;
+    text-align: left;
+    pointer-events: none;
+}
+
+#contact textarea{
+    margin:1px;
+    font-size:.75em;
+    color:black;
+    height: 3em;
+    pointer-events: none;
+}
+
+#contact button {
+    background-color: var(--teal);
+    margin:1px;
+}
+
+#contactInfo {
+    margin:auto;
+    margin-top: 10%;
+    width: 250px;
+}
+
+#contactInfo ul {
+    text-align:left;
+}
+
+#contactInfo h2 {
+    border-bottom: 5px;
+    border-style: dotted;
+    margin: 5px
+}
