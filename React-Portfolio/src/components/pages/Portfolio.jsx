@@ -1,8 +1,8 @@
 function Portfolio() {
     return(
-        <>
-        This is my portfolio
-        </>
+        <main>
+        Portfolio page!
+        </main>
     )
 }
 

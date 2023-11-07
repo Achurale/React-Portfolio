@@ -1,22 +1,17 @@
 import {useState} from 'react'
-import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Portfolio from './components/pages/Portfolio'
 import Contact from './components/pages/Contact'
 import Resume from './components/pages/Resume'
 
 import Header from './components/header'
-// import Nav from './components/nav'
 import Footer from './components/footer'
 import './App.css'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home')
+  const [currentPage, setCurrentPage] = useState('About')
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
     if (currentPage === 'Contact') {
       return <Contact />;
     }
@@ -29,7 +24,7 @@ function App() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Home />;
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
