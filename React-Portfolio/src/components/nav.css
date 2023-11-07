@@ -1,0 +1,30 @@
+/* Nav Bar */
+header nav{
+    background-color: var(--teal);
+    color:var(--text);
+    text-align:center;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    /* right:0; */
+  }
+  
+  nav li {
+    margin: 0% 5%;
+    text-align: center;
+  }
+  
+  a{
+    color:var(--text);
+  }
+  
+  a:hover{
+    color:red;
+    cursor:pointer;
+    text-decoration: underline;
+  }
+  
+  nav ul li {
+  display:inline-block;
+  }
+  /* End Nav Bar */

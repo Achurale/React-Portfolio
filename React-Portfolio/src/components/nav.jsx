@@ -1,3 +1,5 @@
+import './nav.css'
+
 function Nav({currentPage, handlePageChange}) {
     return(
         <>

@@ -1,0 +1,31 @@
+/* Header */
+header {
+    background-color: var(--spearmint);
+    width: 80%;
+    margin: 0px auto;
+    height:150px;
+    position:relative;
+    display:flex;
+  }
+  
+  h1 {
+    font-size: 300%;
+    font-weight:bolder;
+    text-align: center;
+    color:black;
+    position:relative;
+    top:20%;
+    margin:0 auto;
+  }
+  
+  header img {
+    /* max-width:150px; */
+    max-height: 100%;
+    position:absolute;
+    margin-left:5px;
+    border-right: 5px solid var(--teal);
+    border-left: 5px solid var(--teal);
+    border-radius: 25%;
+    bottom:0px;
+    z-index:1;
+  }

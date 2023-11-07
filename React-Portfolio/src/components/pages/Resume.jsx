@@ -1,8 +1,8 @@
 function Resume() {
     return(
-        <>
+        <main>
         This is Resume
-        </>
+        </main>
     )
 }
 
