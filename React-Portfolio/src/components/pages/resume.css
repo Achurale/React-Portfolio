@@ -3,11 +3,11 @@
     flex-direction: column;
     gap: 10px;
     margin:auto;
-    width:25%;
+    width:250px;
 }
 
-#resume p {
-    border-bottom: 5px var(--teal);
+#resume h2 {
+    border-bottom: 5px white;
     border-style: dotted;
 }
 

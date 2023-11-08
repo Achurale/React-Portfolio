@@ -4,9 +4,9 @@ function Resume() {
     return(
         <main>
             <div id="resume">
-                <p>
+                <h2>
                     I have worked with
-                </p>
+                </h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>

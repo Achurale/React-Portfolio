@@ -8,7 +8,7 @@ function Footer() {
                     <ul>
                     <li><a href="https://www.linkedin.com/in/chuyi-lee-27a238257/">LinkedIn</a></li>
                     <li><a href="https://github.com/Achurale">GitHub</a></li>
-                    <li>Discord</li>
+                    <li><a href="https://twitter.com/chuyirlee">Twitter</a></li>
                     </ul>
                 </nav>
             </footer>

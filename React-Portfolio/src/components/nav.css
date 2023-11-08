@@ -6,6 +6,7 @@ header nav{
     position:absolute;
     width:100%;
     bottom:0;
+    padding: 4px 0;
     /* right:0; */
   }
   

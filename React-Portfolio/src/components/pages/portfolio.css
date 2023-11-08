@@ -1,0 +1,70 @@
+.class {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.col{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 5px;
+    width:45%;
+}
+
+.card{
+    margin:2px;
+    min-height: 250px;
+    position:relative;
+}
+
+.coolHover {
+  box-shadow: 0 black;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.coolHover:hover{
+    box-shadow: 0 5px 15px black;
+    opacity: 0.25;
+}
+
+.card img {
+    max-width: 100%;
+    height:auto;
+}
+
+.hidden{
+    position:absolute;
+    top:5%;
+    text-align: center;
+    opacity: 0;
+    width:100%;
+    margin: 0 auto;
+    transition: opacity .3s ease-in-out;
+    pointer-events: none;
+    display:flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.hidden h3 {
+    text-align: center;
+    margin: auto;
+    width:100%;
+    position:relative;
+    border-bottom: 5px white;
+    border-style: dotted;
+}
+
+.card:hover .hidden{
+    visibility:visible;
+    opacity: 1;
+}
