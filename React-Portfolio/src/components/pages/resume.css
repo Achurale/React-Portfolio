@@ -1,0 +1,32 @@
+#resume {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    margin:auto;
+    width:250px;
+}
+
+#resume h2 {
+    border-bottom: 5px white;
+    border-style: dotted;
+}
+
+#resume ul{
+    list-style-position:inside;
+    text-align:left;
+    margin:auto;
+}
+
+#resumeDL {
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius:5px;
+    margin: 10px;
+}
+
+#resumeDL:hover {
+    color:red;
+    box-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
