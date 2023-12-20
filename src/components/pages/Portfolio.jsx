@@ -10,38 +10,40 @@ function Portfolio() {
                     <div class="col">
                         {/* Row 1 */}
                         <div class="card">
-                            <a href="https://github.com/Achurale/DnD-Character-Maker" target="_blank" rel="noopener noreferrer">
-                                <img src="./character-maker.png" class="coolHover"></img>
+                            <a href="https://what-the-fork.onrender.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="./WhatTheFork.png" class="coolHover"></img>
                                 <div class="hidden">
                                     <div class="container">
                                         <h3>
-                                            D&D Character Maker
+                                            What the Fork?
                                         </h3>
                                         <p>
-                                            The start of a character creator for Dungeons and Dragons.
-                                            Although it doesn't have much, I would like to toy around with it some more.
+                                            A simple foodie webpage where a user can look up and save recipes to find again later!
                                         </p>
                                     </div>
                                 </div>
                             </a>
                         </div>
+                        
 
                         {/* Row 2 */}
                         <div class="card">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="./placholder2.png" class="coolHover"></img>
+                            <a href="https://github.com/Achurale/Note-Taker-4000" target="_blank" rel="noopener noreferrer">
+                                <img src="./currency-converter.png" class="coolHover"></img>
                                 <div class="hidden">
                                     <div class="container">
                                         <h3>
-                                            Placeholder
+                                            Traveler's Assistant
                                         </h3>
                                         <p>
-                                            Keep an eye out for more things I may make!
+                                            A helpful tool for those traveling abroad.
+                                            It helps exchange currency, translate different languages, and even lets you take down notes.
                                         </p>
                                     </div>
                                 </div>
                             </a>
                         </div>
+                        
 
                         {/* Row 3 */}
                         <div class="card">
@@ -66,21 +68,22 @@ function Portfolio() {
                     <div class="col">
                         {/* Row 1 */}
                         <div class="card">
-                            <a href="https://github.com/Achurale/Note-Taker-4000" target="_blank" rel="noopener noreferrer">
-                                <img src="./currency-converter.png" class="coolHover"></img>
+                            <a href="https://github.com/Achurale/DnD-Character-Maker" target="_blank" rel="noopener noreferrer">
+                                <img src="./character-maker.png" class="coolHover"></img>
                                 <div class="hidden">
                                     <div class="container">
                                         <h3>
-                                            Traveler's Assistant
+                                            D&D Character Maker
                                         </h3>
                                         <p>
-                                            A helpful tool for those traveling abroad.
-                                            It helps exchange currency, translate different languages, and even lets you take down notes.
+                                            The start of a character creator for Dungeons and Dragons.
+                                            Although it doesn't have much, I would like to toy around with it some more.
                                         </p>
                                     </div>
                                 </div>
                             </a>
                         </div>
+                        
 
                         {/* Row 2 */}
                         <div class="card">
